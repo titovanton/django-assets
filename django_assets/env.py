@@ -26,8 +26,8 @@ class DjangoConfigStorage(ConfigStorage):
         'url_expire': 'ASSETS_URL_EXPIRE',
         'versions': 'ASSETS_VERSIONS',
         'manifest': 'ASSETS_MANIFEST',
-        # Deprecated
-        'expire': 'ASSETS_EXPIRE',
+        'load_path': 'ASSETS_LOAD_PATH',
+        'url_mapping': 'ASSETS_URL_MAPPING',
     }
 
     def _transform_key(self, key):
